@@ -1,6 +1,6 @@
 client/preload_rsc = 1
 world
-	name = "DungeonMaster:The Remake"
+	name = "Dungeon Master"
 	view = 9
 	//hub = "Ginseng.DungeonMaster"
 	hub = "Godsring.DungeonMaster"
@@ -8,7 +8,7 @@ world
 	loop_checks  = 0
 	fps=30
 	map_format = TOPDOWN_MAP
-	status = "DungeonMaster:The Remake"
+	status = "Dungeon Master:Official Server RP/PVP"
 	New()
 		..()
 		log = file("world.log")
