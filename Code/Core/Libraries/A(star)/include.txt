@@ -1,0 +1,3 @@
+Deadron.BaseCamp version=23
+Deadron.EventLoop version=9
+Deadron.Geography version=1
