@@ -6,7 +6,7 @@ obj/HUD
 		icon = 'Building Interface.dmi'
 		New()
 		Open
-			layer = 10
+			layer = 6
 			icon_state = "Build"
 			Click()
 			//	..()
@@ -901,6 +901,15 @@ Player
 		O.screen_loc = "12:25,1:31"
 		src.client.screen += O
 		src.Building_Interface += O
+
+/*client
+	var/list/Blueprints = list()
+	New()
+		..()
+		var/var/obj/HUD/Building_Interface/Open/O = new()
+		O.screen_loc = "12:25,1:31"
+		screen += O
+		Building_Interface += O*/
 
 client
 	MouseEntered(atom/A)

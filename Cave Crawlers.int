@@ -1,19 +1,19 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1474994686
-DIR: Code Code\Core Code\Core\Config Code\Core\Data Code\Core\Data\Variables Code\Core\Data\Verbs Code\Core\Data\WorldGen Code\Core\Libraries Code\Core\Login Code\Mob Code\Mob\Creatures Code\Objects Code\Objects\Items Code\Objects\Items\Crafting 
+LAST_COMPILE_TIME: 1475188905
 PACKAGE_RSC_NAME: D:\dungeon master stuff\DM SVN - Copy\Cave Crawlers_rsc.zip
+DIR: Code Code\Core Code\Core\Building Code\Core\Config Code\Core\Data Code\Core\Data\Saving Code\Core\Data\Variables Code\Core\Data\Verbs Code\Core\Data\WorldGen Code\Core\Libraries Code\Core\Login Code\Mob Code\Mob\Creatures Code\Objects Code\Objects\Items 
 AUTO_FILE_DIR: ON
 PACKAGE_DMB_INFO: 
 MAP_ICON_TYPE: 0
 PACKAGE_DME_NAME: D:\dungeon master stuff\DM SVN - Copy\Cave Crawlers_src.zip
-LAST_COMPILE_VERSION: 511.1357
-PACKAGE_TYPE: 0
+LAST_COMPILE_VERSION: 511.1359
 PACKAGE_DME_START: 
-WINDOW: Code\Core\Core.dm
+PACKAGE_TYPE: 0
+WINDOW: Code\Core\Core.dm;Code\Core\Building\BuildingInterface.dm;Code\Core\Building\buildinginterface2.dm;Code\Core\Data\HUD.dm;Code\Core\Login\LoginProcs.dm;Code\Core\Data\Saving\Saves.dm;Code\Core\Login\LoginHandler.dm
 PACKAGE_DME_INFO: 
-FILE: Code\Core\Core.dm
-PACKAGE_DMB_NAME: C:\Users\Godsring\Desktop\Cave Crawlers.zip
+FILE: Code\Core\Building\BuildingInterface.dm
 PACKAGE_DME_DEMO: 
+PACKAGE_DMB_NAME: C:\Users\Godsring\Desktop\Cave Crawlers.zip
 */
 // END_INTERNALS

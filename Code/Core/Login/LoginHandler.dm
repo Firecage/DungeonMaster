@@ -51,6 +51,11 @@ mob/Login()
 	for(var/mob/Monsters/M in usr.UnitList)
 		if(M.Owner == usr)
 			usr.loc = M.loc
+			M.Blueprints = new()
+	/*var/var/obj/HUD/Building_Interface/Open/O = new()
+	O.screen_loc = "12:25,1:31"
+	src.client.screen += O*/
+	//src.Building_Interface += O
 	usr.density = 0
 	usr.randrares()
 	var/In = 0

@@ -29,6 +29,7 @@
 #include "Code\Core\Core.dm"
 #include "Code\Core\Building\Building.dm"
 #include "Code\Core\Building\BuildingInterface.dm"
+#include "Code\Core\Building\buildinginterface2.dm"
 #include "Code\Core\Building\HUD Building.dm"
 #include "Code\Core\Building\Stairs.dm"
 #include "Code\Core\Building\TurfTypes.dm"

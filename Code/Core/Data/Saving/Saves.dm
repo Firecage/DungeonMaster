@@ -119,7 +119,6 @@ mob/proc/LoadUnits()
 				K.Sleeping = 0
 				K.Stunned = 0
 				K.Fainted = 0
-				K.Blueprints = new
 				K.HomeLoc = null
 				K.Target = null
 				K.Owner = usr
