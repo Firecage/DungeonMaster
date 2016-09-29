@@ -290,7 +290,6 @@ mob/Monsters/proc/Hunger() if(StopDouble("Hunger")) spawn() while(1)
 						else Hunger-=1
 					if(Hunger<=20)
 						EatSomething()
-						Owner << "<b><font color=red>[src] : I'm Hungry!" //Now it only pops up if you don't have food.
 						if(Hunger<=10)
 							switch(Race)
 								if("Machine")
@@ -341,6 +340,8 @@ mob/Monsters/proc/EatSomething()
 						else
 							if(M.umeat>=1)
 								EatItem("umeat")
+							else
+								Owner << "<b><font color=red>[src] : I'm Hungry!" //Now it only pops up if you don't have food.
 
 		//for(var/obj/Items/Food/ITEM in src) switch(ITEM.icon_state) if("CookedMeat","Grape","Tomato") if(EatItem(ITEM)) return(1)
 		//for(var/obj/Items/Food/ITEM in src) if(EatItem(ITEM)) return(1)
