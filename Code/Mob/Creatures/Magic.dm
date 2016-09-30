@@ -1,7 +1,7 @@
 mob/var/list/marked
 var/list/marked
 mob/var/markedloc
-mob/verb/recall()
+/*mob/verb/recall()
 	for(var/mob/Monsters/M in usr.Selected)
 		for(var/obj/O as turf in M.marked)
 		//var/T = input("Select Player Here")as null|anything in M.marked
@@ -9,9 +9,9 @@ mob/verb/recall()
 			//..()
 		//else
 			M.loc = O
-			return
+			return*/
 
-mob/verb/mark()
+/*mob/verb/mark()
 	for(var/mob/M in world)
 		if(M == usr)
 			M.markedloc = M.loc
@@ -20,5 +20,5 @@ mob/verb/mark()
 			//M.marked += M.x
 			//M.marked += M.y
 			//M.marked += M.z
-			usr << "saved [M.loc]"
+			usr << "saved [M.loc]"*/
 			//return

@@ -1,8 +1,8 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1475188905
+LAST_COMPILE_TIME: 1475200951
 PACKAGE_RSC_NAME: D:\dungeon master stuff\DM SVN - Copy\Cave Crawlers_rsc.zip
-DIR: Code Code\Core Code\Core\Building Code\Core\Config Code\Core\Data Code\Core\Data\Saving Code\Core\Data\Variables Code\Core\Data\Verbs Code\Core\Data\WorldGen Code\Core\Libraries Code\Core\Login Code\Mob Code\Mob\Creatures Code\Objects Code\Objects\Items 
+DIR: Code Code\Core Code\Core\Building Code\Core\Config Code\Core\Data Code\Core\Data\Cycles Code\Core\Data\Cycles\Seasons Code\Core\Data\Saving Code\Core\Data\Variables Code\Core\Data\Verbs Code\Core\Data\WorldGen Code\Core\Libraries Code\Core\Login Code\Mob Code\Mob\Creatures Code\Objects Code\Objects\Items 
 AUTO_FILE_DIR: ON
 PACKAGE_DMB_INFO: 
 MAP_ICON_TYPE: 0
@@ -10,9 +10,9 @@ PACKAGE_DME_NAME: D:\dungeon master stuff\DM SVN - Copy\Cave Crawlers_src.zip
 LAST_COMPILE_VERSION: 511.1359
 PACKAGE_DME_START: 
 PACKAGE_TYPE: 0
-WINDOW: Code\Core\Core.dm;Code\Core\Building\BuildingInterface.dm;Code\Core\Building\buildinginterface2.dm;Code\Core\Data\HUD.dm;Code\Core\Login\LoginProcs.dm;Code\Core\Data\Saving\Saves.dm;Code\Core\Login\LoginHandler.dm
+WINDOW: Code\Core\Core.dm;Code\Core\Building\BuildingInterface.dm;Code\Core\Building\buildinginterface2.dm;Code\Core\Data\HUD.dm;Code\Core\Login\LoginProcs.dm;Code\Core\Data\Saving\Saves.dm;Code\Core\Login\LoginHandler.dm;Code\Core\Data\Verbs\Admin.dm;Code\Core\Data\Verbs\Verbs.dm;Code\Core\Libraries\Map-Storage.dm;Code\Core\Data\Cycles\Seasons\seasonProc.dm;Code\Core\Data\Cycles\Seasons\Seasons.dm;Code\Mob\Creatures\Magic.dm
 PACKAGE_DME_INFO: 
-FILE: Code\Core\Building\BuildingInterface.dm
+FILE: Code\Mob\Creatures\Magic.dm
 PACKAGE_DME_DEMO: 
 PACKAGE_DMB_NAME: C:\Users\Godsring\Desktop\Cave Crawlers.zip
 */

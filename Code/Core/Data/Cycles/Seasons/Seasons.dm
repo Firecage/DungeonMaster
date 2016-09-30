@@ -1,10 +1,8 @@
 proc/SeasonChange()
-	..()
 	Seasons()
 	spawn(2200)
 		SeasonChange()
 proc/SeasonsCneck()
-	..()
 	switch(Month)
 		if(6,7,8)
 			Season = "Summer"

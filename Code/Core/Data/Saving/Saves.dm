@@ -281,7 +281,8 @@ MAP SAVING AND LOADING FUNCTIONS AS USED IN A GAME
 **************************************************************************/
 
 // Save the map file.
-mob/verb/MapSave()
+Admin/verb/MapSave()
+	set category = "Admin"
 	if(usr.GM == 1)
 		// Request a name for this map. If it doesn't have a name cancel this, and if it doesn't
 		// have an game_id, then add the .map game_id.
@@ -312,7 +313,8 @@ mob/verb/MapSave()
 	world << "Map saved"
 	return*/
 // Load the saved map file.
-mob/verb/MapLoad()
+Admin/verb/MapLoad()
+	set category = "Admin"
 	if(usr.GM == 1)
 		// Find all the map files in the directory, and if there are none, abort.
 		var/list/maps = list()
@@ -351,7 +353,7 @@ mob/verb/MapLoad()
 				return
 
 		// Make sure to move players off the map.
-		src.loc = null
+		//src.loc = null
 
 		world.log << "Loading map..."
 		sleep(1)
@@ -365,10 +367,10 @@ mob/verb/MapLoad()
 			world.log << "Map failed to load..."
 
 		// Now we can put players back on the map.
-		src.loc = locate(1,1,1)
+		//src.loc = locate(1,1,1)
 
 		world.log << "Loading time: [(world.timeofday - start_time) / 10] second\s"
-
+		world << "Loading time: [(world.timeofday - start_time) / 10] second\s"
 		return
 turf
 	map_storage_saved_vars = "density;opacity;tag"

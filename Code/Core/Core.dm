@@ -17,10 +17,10 @@ world
 		BirthChanges()
 		CallSave()
 		LoadWinfo()
-		//spawn(30)
-			//SeasonsCneck()
-		//spawn(20)
-			//Seasons()
+		spawn(30)
+			SeasonsCneck()
+		spawn(20)
+			Seasons()
 
 var/Season = "Winter"
 var/WorldName
